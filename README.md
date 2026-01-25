@@ -67,3 +67,9 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 
 - **Submission Email**: adv@aivta.org
 - **Venue**: Hefei, Anhui Province, China
+
+## Other
+
+- **Website**: [aivta.org](https://aivta.org)
+- 使用GitHub freerunner#foxmail.com创建的仓库；
+- 使用159***创建的飞书邮箱；
