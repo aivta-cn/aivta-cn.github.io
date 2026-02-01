@@ -12,7 +12,7 @@
 
 学术出版与影响力保障：
 
-权威出版：​ 所有录用论文将由 IEEE (Institute of Electrical and Electronics Engineers)​ 正式出版，并提交 IEEE Xplore​ 数据库。
+权威出版：​ 所有录用论文将提交至会议论文集，并可能提交 IEEE Xplore 数据库。
 
 核心检索：​ 确保100%被 EI Compendex​ 和 Scopus​ 核心数据库收录。
 
