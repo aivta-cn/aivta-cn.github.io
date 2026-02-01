@@ -2,7 +2,7 @@
 
 **International Conference on AI Video Technology and Applications**
 
-November 12-15, 2026 | Hefei, Anhui, China
+November 13-15, 2026 | Hefei, Anhui, China
 
 ## Overview
 
@@ -61,7 +61,7 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 | Acceptance Notification | September 15, 2026 |
 | Camera-Ready Deadline | October 10, 2026 |
 | Registration Deadline | October 15, 2026 |
-| Conference Dates | November 12-15, 2026 |
+| Conference Dates | November 13-15, 2026 |
 
 ## Contact
 

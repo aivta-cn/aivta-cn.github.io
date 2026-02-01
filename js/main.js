@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /**
  * Countdown Timer
- * Counts down to November 12, 2026
+ * Counts down to November 13, 2026
  */
 function initCountdown() {
     const countdownEl = document.getElementById('countdown');
     if (!countdownEl) return;
 
-    const conferenceDate = new Date('November 12, 2026 09:00:00').getTime();
+    const conferenceDate = new Date('November 13, 2026 09:00:00').getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
