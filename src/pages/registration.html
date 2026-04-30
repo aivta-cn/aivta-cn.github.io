@@ -1,53 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-en="Registration - AIVTA 2026" data-zh="注册 - AIVTA 2026">{{PAGE_TITLE_EN}}</title>
-    <meta name="description" content="AIVTA 2026 Conference Registration - Fees, deadlines, and registration information">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-<!-- Skip to Content -->
-<a href="#main-content" class="skip-link">Skip to main content</a>
-
-<!-- Header -->
-<header class="header" role="banner">
-    <div class="container">
-        <a href="index.html" class="logo" aria-label="AIVTA 2026 Home">
-            <span class="logo-text">AIVTA <span>2026</span></span>
-        </a>
-
-        <nav class="nav" role="navigation" aria-label="Main navigation">
-            <a href="index.html" data-en="Home" data-zh="首页">Home</a>
-                    <a href="committee.html" data-en="Committee" data-zh="组织委员会">Committee</a>
-                    <a href="call-for-papers.html" data-en="Call for Papers" data-zh="征稿启事">Call for Papers</a>
-                    <a href="submission.html" data-en="Submission" data-zh="投稿指南">Submission</a>
-                    <a href="registration.html" class="active" data-en="Registration" data-zh="注册">Registration</a>
-                    <a href="publication.html" data-en="Publication" data-zh="出版">Publication</a>
-                    <a href="program.html" data-en="Program" data-zh="会议日程">Program</a>
-                    <a href="contact.html" data-en="Contact" data-zh="联系我们">Contact</a>
-            <a href="#" id="lang-switch" class="lang-switch" role="button" aria-label="Switch language">中文</a>
-        </nav>
-
-        <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </div>
-</header>
-
-
-<main id="main-content">
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
@@ -207,19 +157,7 @@
         <div class="container">
             <h2 class="section-title" data-en="Important Dates" data-zh="重要日期">Important Dates</h2>
 
-            <div class="dates-grid">
-                    <div class="date-card">
-                        <h4 data-en="Author Registration Deadline" data-zh="作者注册截止">Author Registration Deadline</h4>
-                        <p class="date" data-en="October 15, 2026" data-zh="2026年10月15日">October 15, 2026</p>
-                    </div>
-                    <div class="date-card">
-                        <h4 data-en="Early Bird Registration Deadline" data-zh="早鸟注册截止">Early Bird Registration Deadline</h4>
-                        <p class="date" data-en="October 31, 2026" data-zh="2026年10月31日">October 31, 2026</p>
-                    </div>
-                    <div class="date-card">
-                        <h4 data-en="Conference Dates" data-zh="会议日期">Conference Dates</h4>
-                        <p class="date" data-en="November 13-15, 2026" data-zh="2026年11月13-15日">November 13-15, 2026</p>
-                    </div>
+            <div class="dates-grid">{{DATES:author-registration,early-bird-registration,conference-dates}}
             </div>
         </div>
     </section>
@@ -235,44 +173,3 @@
             </div>
         </div>
     </section>
-
-</main>
-
-<!-- Footer -->
-<footer class="footer" role="contentinfo">
-    <div class="container">
-        <div class="footer-grid">
-            <div class="footer-section">
-                <h4 data-en="Quick Links" data-zh="快速链接">Quick Links</h4>
-                                        <a href="index.html" data-en="Home" data-zh="首页">Home</a>
-                        <a href="call-for-papers.html" data-en="Call for Papers" data-zh="征稿启事">Call for Papers</a>
-                        <a href="submission.html" data-en="Submission" data-zh="投稿指南">Submission</a>
-                        <a href="publication.html" data-en="Publication" data-zh="出版">Publication</a>
-            </div>
-            <div class="footer-section">
-                <h4 data-en="Information" data-zh="会议信息">Information</h4>
-                                        <a href="committee.html" data-en="Committee" data-zh="组织委员会">Committee</a>
-                        <a href="registration.html" data-en="Registration" data-zh="注册">Registration</a>
-                        <a href="program.html" data-en="Program" data-zh="会议日程">Program</a>
-                        <a href="contact.html" data-en="Contact" data-zh="联系我们">Contact</a>
-            </div>
-            <div class="footer-section">
-                <h4 data-en="Contact" data-zh="联系方式">Contact</h4>
-                <p data-en="Email: adv@aivta.org" data-zh="邮箱: adv@aivta.org">Email: adv@aivta.org</p>
-                <p data-en="Hefei, Anhui, China" data-zh="中国安徽省合肥市">Hefei, Anhui, China</p>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <p>&copy; 2026 AIVTA Conference. <span data-en="All rights reserved." data-zh="版权所有。">All rights reserved.</span></p>
-        </div>
-    </div>
-</footer>
-
-<!-- Scripts -->
-<script id="aivta-site-data" type="application/json">{"conferenceDate":"2026-11-13","page":"registration"}</script>
-<script src="js/main.js"></script>
-<script src="js/i18n.js"></script>
-
-</body>
-</html>

@@ -1,0 +1,122 @@
+{
+  "sections": [
+    {
+      "id": "conference-chair",
+      "titleEn": "Conference Chair",
+      "titleZh": "大会主席",
+      "members": [
+        {
+          "name": "梁昌勇 (Changyong Liang)",
+          "avatar": "梁",
+          "roleEn": "Conference Chair",
+          "roleZh": "大会主席",
+          "affiliationEn": "Distinguished Professor (Changjiang Scholar, MOE), State Council Special Allowance Expert, Vice Dean of Research Institute, Hefei University of Technology",
+          "affiliationZh": "教育部长江学者特聘教授，享受国务院特殊津贴专家，现任合肥工业大学科研院副院长"
+        }
+      ]
+    },
+    {
+      "id": "publication-chair",
+      "titleEn": "Publication Committee Chair",
+      "titleZh": "出版委员会主席",
+      "members": [
+        {
+          "name": "周孟奇 (Zhou Mengqi)",
+          "avatar": "周",
+          "roleEn": "Publication Committee Chair",
+          "roleZh": "出版委员会主席",
+          "affiliationEn": "Chair of IEEE China Conference Committee, IEEE China Council",
+          "affiliationZh": "IEEE中国会议委员会主席，IEEE中国联合会",
+          "email": "zhou698@vip.sina.com"
+        }
+      ]
+    },
+    {
+      "id": "treasurer",
+      "titleEn": "Conference Treasurer",
+      "titleZh": "财务主管",
+      "members": [
+        {
+          "name": "Wang Jia (王佳)",
+          "avatar": "王",
+          "roleEn": "Conference Treasurer",
+          "roleZh": "财务主管",
+          "affiliationEn": "Room 2008, Building 13, Huaqing Jiayuan, Chengfu Road, Haidian District, Beijing, China",
+          "affiliationZh": "北京市海淀区成府路华清嘉园13号楼2008室",
+          "email": "freerunner@foxmail.com"
+        }
+      ]
+    },
+    {
+      "id": "technical-program-chair",
+      "titleEn": "Technical Program Chair",
+      "titleZh": "程序委员会主席",
+      "members": [
+        {
+          "name": "Yang Zhimin (杨志敏)",
+          "avatar": "杨",
+          "roleEn": "Technical Program Chair",
+          "roleZh": "程序委员会主席",
+          "affiliationEn": "Shandong University, Weihai Campus",
+          "affiliationZh": "山东大学（威海）",
+          "email": "yangzhimin@aivta.org"
+        }
+      ]
+    }
+  ],
+  "updateNoteEn": "Note: The Program Committee and Organizing Committee member lists are being updated continuously.",
+  "updateNoteZh": "注：程序委员会及组织委员会名单持续更新中",
+  "organizers": {
+    "titleEn": "Organizers",
+    "titleZh": "主办单位",
+    "hostTitleEn": "Host Organizations",
+    "hostTitleZh": "主办单位",
+    "coHostTitleEn": "Co-Organizers",
+    "coHostTitleZh": "联合主办单位",
+    "hosts": [
+      {
+        "nameEn": "IEEE China Council",
+        "nameZh": "IEEE中国联合会",
+        "addressEn": "Room 1503, South Tower, Rongke Information Center Building C, No. 2 Kexueyuan South Road, Haidian District, Beijing",
+        "addressZh": "北京市海淀区科学院南路2号融科资讯中心C座南楼1503室"
+      }
+    ],
+    "coOrganizers": [
+      {
+        "nameEn": "Euro-American Video Technology Association",
+        "nameZh": "欧美视频技术协会",
+        "addressEn": "#1603 4333 Central Blvd, Burnaby, BC, Canada V5H 4W8 (Contact: Cui Miaomiao)",
+        "addressZh": "#1603 4333 Central Blvd, Burnaby, BC, Canada V5H 4W8（崔淼淼）"
+      }
+    ]
+  },
+  "keynoteSection": {
+    "titleEn": "Keynote Speakers & Distinguished Guests",
+    "titleZh": "主旨演讲嘉宾",
+    "announcementEn": "We are inviting distinguished experts from both academia and the film/TV industry. Keynote speaker information will be announced soon.",
+    "announcementZh": "我们正在邀请来自学术界和影视行业的杰出专家。主旨演讲嘉宾信息即将公布。",
+    "expectedLabelEn": "Expected speaker backgrounds include:",
+    "expectedLabelZh": "预期嘉宾背景包括：",
+    "backgroundsEn": [
+      "Leading AI researchers from top universities",
+      "Industry pioneers in virtual production and VFX",
+      "Film and television production experts",
+      "Technology leaders from major streaming platforms"
+    ],
+    "backgroundsZh": [
+      "顶尖高校的AI研究领军人物",
+      "虚拟制片和视觉特效领域的行业先驱",
+      "影视制作专家",
+      "主要流媒体平台的技术领导者"
+    ]
+  },
+  "cta": {
+    "titleEn": "Join the Program Committee",
+    "titleZh": "加入程序委员会",
+    "descEn": "We welcome researchers and practitioners to join our Program Committee. If you are interested in serving as a reviewer, please contact us.",
+    "descZh": "我们欢迎研究人员和从业者加入我们的程序委员会。如果您有兴趣担任审稿人，请与我们联系。",
+    "buttonEn": "Contact Us",
+    "buttonZh": "联系我们",
+    "href": "contact.html"
+  }
+}

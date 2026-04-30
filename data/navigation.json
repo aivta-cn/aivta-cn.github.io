@@ -1,0 +1,14 @@
+{
+  "main": [
+    { "href": "index.html",           "id": "index",           "labelEn": "Home",              "labelZh": "首页" },
+    { "href": "committee.html",       "id": "committee",       "labelEn": "Committee",         "labelZh": "组织委员会" },
+    { "href": "call-for-papers.html", "id": "call-for-papers", "labelEn": "Call for Papers",   "labelZh": "征稿启事" },
+    { "href": "submission.html",      "id": "submission",      "labelEn": "Submission",        "labelZh": "投稿指南" },
+    { "href": "registration.html",    "id": "registration",    "labelEn": "Registration",      "labelZh": "注册" },
+    { "href": "publication.html",     "id": "publication",     "labelEn": "Publication",       "labelZh": "出版" },
+    { "href": "program.html",         "id": "program",         "labelEn": "Program",           "labelZh": "会议日程" },
+    { "href": "contact.html",         "id": "contact",         "labelEn": "Contact",           "labelZh": "联系我们" }
+  ],
+  "footerQuickLinks": ["index", "call-for-papers", "submission", "publication"],
+  "footerInfoLinks":  ["committee", "registration", "program", "contact"]
+}

@@ -1,0 +1,33 @@
+{
+  "conference": {
+    "shortName": "AIVTA 2026",
+    "fullNameEn": "International Conference on AI Video Technology and Applications",
+    "fullNameZh": "AI视频技术及其应用国际会议",
+    "year": "2026"
+  },
+  "venue": {
+    "cityEn": "Hefei",
+    "cityZh": "合肥",
+    "provinceEn": "Anhui",
+    "provinceZh": "安徽",
+    "countryEn": "China",
+    "countryZh": "中国",
+    "fullEn": "Hefei, Anhui, China",
+    "fullZh": "中国安徽省合肥市",
+    "addressEn": "Zhongshe Creative Industry Park, No. 129, Tiandu Road, Economic and Technological Development Zone, Hefei City, Anhui Province, China",
+    "addressZh": "安徽省合肥市经开区天都路129号中设创意产业园"
+  },
+  "contact": {
+    "email": "adv@aivta.org",
+    "website": "aivta.org"
+  },
+  "copyright": {
+    "year": 2026,
+    "holderEn": "AIVTA Conference",
+    "holderZh": "AIVTA会议"
+  },
+  "conferenceDate": "2026-11-13",
+  "conferenceEnd": "2026-11-15",
+  "conferenceDateEn": "November 13-15, 2026",
+  "conferenceDateZh": "2026年11月13-15日"
+}
