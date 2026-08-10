@@ -4,41 +4,41 @@
       "id": "full-paper-submission",
       "labelEn": "Full Paper Submission Deadline",
       "labelZh": "全文提交截止",
-      "dateEn": "July 31, 2026",
-      "dateZh": "2026年7月31日",
-      "iso": "2026-07-31"
+      "dateEn": "September 30, 2026",
+      "dateZh": "2026年9月30日",
+      "iso": "2026-09-30"
     },
     {
       "id": "acceptance-notification",
       "labelEn": "Acceptance Notification",
       "labelZh": "录用通知",
-      "dateEn": "September 15, 2026",
-      "dateZh": "2026年9月15日",
-      "iso": "2026-09-15"
-    },
-    {
-      "id": "camera-ready",
-      "labelEn": "Camera-Ready Deadline",
-      "labelZh": "终稿提交截止",
-      "dateEn": "October 10, 2026",
-      "dateZh": "2026年10月10日",
-      "iso": "2026-10-10"
-    },
-    {
-      "id": "author-registration",
-      "labelEn": "Author Registration Deadline",
-      "labelZh": "作者注册截止",
       "dateEn": "October 15, 2026",
       "dateZh": "2026年10月15日",
       "iso": "2026-10-15"
     },
     {
-      "id": "early-bird-registration",
-      "labelEn": "Early Bird Registration Deadline",
-      "labelZh": "早鸟注册截止",
+      "id": "camera-ready",
+      "labelEn": "Camera-Ready Deadline",
+      "labelZh": "终稿提交截止",
+      "dateEn": "October 25, 2026",
+      "dateZh": "2026年10月25日",
+      "iso": "2026-10-25"
+    },
+    {
+      "id": "author-registration",
+      "labelEn": "Author Registration Deadline",
+      "labelZh": "作者注册截止",
       "dateEn": "October 31, 2026",
       "dateZh": "2026年10月31日",
       "iso": "2026-10-31"
+    },
+    {
+      "id": "early-bird-registration",
+      "labelEn": "Early Bird Registration Deadline",
+      "labelZh": "早鸟注册截止",
+      "dateEn": "October 15, 2026",
+      "dateZh": "2026年10月15日",
+      "iso": "2026-10-15"
     },
     {
       "id": "conference-dates",

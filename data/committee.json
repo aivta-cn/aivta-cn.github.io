@@ -16,6 +16,21 @@
       ]
     },
     {
+      "id": "executive-chair",
+      "titleEn": "Executive Chair",
+      "titleZh": "大会执行主席",
+      "members": [
+        {
+          "name": "施春明 (SHI Chunming)",
+          "avatar": "施",
+          "roleEn": "Executive Chair",
+          "roleZh": "大会执行主席",
+          "affiliationEn": "Tenured Professor, Lazaridis School of Business and Economics, Wilfrid Laurier University, Canada",
+          "affiliationZh": "加拿大劳瑞尔大学商学院终身教授"
+        }
+      ]
+    },
+    {
       "id": "publication-chair",
       "titleEn": "Publication Committee Chair",
       "titleZh": "出版委员会主席",

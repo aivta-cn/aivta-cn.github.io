@@ -57,10 +57,10 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 
 | Milestone | Date |
 |-----------|------|
-| Full Paper Submission | July 31, 2026 |
-| Acceptance Notification | September 15, 2026 |
-| Camera-Ready Deadline | October 10, 2026 |
-| Registration Deadline | October 15, 2026 |
+| Full Paper Submission | September 30, 2026 |
+| Acceptance Notification | October 15, 2026 |
+| Camera-Ready Deadline | October 25, 2026 |
+| Registration Deadline | October 31, 2026 |
 | Conference Dates | November 13-15, 2026 |
 
 ## Contact
