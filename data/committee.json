@@ -7,7 +7,11 @@
       "members": [
         {
           "name": "梁昌勇 (Changyong Liang)",
+          "nameEn": "Changyong Liang",
+          "nameZh": "梁昌勇 (Changyong Liang)",
           "avatar": "梁",
+          "avatarEn": "L",
+          "avatarZh": "梁",
           "roleEn": "Conference Chair",
           "roleZh": "大会主席",
           "affiliationEn": "Distinguished Professor (Changjiang Scholar, MOE), State Council Special Allowance Expert, Vice Dean of Research Institute, Hefei University of Technology",
@@ -22,7 +26,11 @@
       "members": [
         {
           "name": "施春明 (SHI Chunming)",
+          "nameEn": "SHI Chunming",
+          "nameZh": "施春明 (SHI Chunming)",
           "avatar": "施",
+          "avatarEn": "S",
+          "avatarZh": "施",
           "roleEn": "Executive Chair",
           "roleZh": "大会执行主席",
           "affiliationEn": "Tenured Professor, Lazaridis School of Business and Economics, Wilfrid Laurier University, Canada",
@@ -37,7 +45,11 @@
       "members": [
         {
           "name": "周孟奇 (Zhou Mengqi)",
+          "nameEn": "Zhou Mengqi",
+          "nameZh": "周孟奇 (Zhou Mengqi)",
           "avatar": "周",
+          "avatarEn": "Z",
+          "avatarZh": "周",
           "roleEn": "Publication Committee Chair",
           "roleZh": "出版委员会主席",
           "affiliationEn": "Chair of IEEE China Conference Committee, IEEE China Council",
@@ -53,7 +65,11 @@
       "members": [
         {
           "name": "Wang Jia (王佳)",
+          "nameEn": "Wang Jia",
+          "nameZh": "王佳 (Wang Jia)",
           "avatar": "王",
+          "avatarEn": "W",
+          "avatarZh": "王",
           "roleEn": "Conference Treasurer",
           "roleZh": "财务主管",
           "affiliationEn": "Room 2008, Building 13, Huaqing Jiayuan, Chengfu Road, Haidian District, Beijing, China",
@@ -69,7 +85,11 @@
       "members": [
         {
           "name": "Yang Zhimin (杨志敏)",
+          "nameEn": "Yang Zhimin",
+          "nameZh": "杨志敏 (Yang Zhimin)",
           "avatar": "杨",
+          "avatarEn": "Y",
+          "avatarZh": "杨",
           "roleEn": "Technical Program Chair",
           "roleZh": "程序委员会主席",
           "affiliationEn": "Shandong University, Weihai Campus",
