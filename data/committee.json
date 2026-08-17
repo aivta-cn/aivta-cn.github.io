@@ -35,6 +35,30 @@
           "roleZh": "大会执行主席",
           "affiliationEn": "Tenured Professor, Lazaridis School of Business and Economics, Wilfrid Laurier University, Canada",
           "affiliationZh": "加拿大劳瑞尔大学商学院终身教授"
+        },
+        {
+          "name": "梁景凯 (Liang Jingkai)",
+          "nameEn": "Liang Jingkai",
+          "nameZh": "梁景凯 (Liang Jingkai)",
+          "avatar": "梁",
+          "avatarEn": "L",
+          "avatarZh": "梁",
+          "roleEn": "Executive Chair",
+          "roleZh": "大会执行主席",
+          "affiliationEn": "Professor, Harbin Institute of Technology (Weihai)",
+          "affiliationZh": "哈尔滨工业大学（威海）教授"
+        },
+        {
+          "name": "杨志敏 (Yang Zhimin)",
+          "nameEn": "Yang Zhimin",
+          "nameZh": "杨志敏 (Yang Zhimin)",
+          "avatar": "杨",
+          "avatarEn": "Y",
+          "avatarZh": "杨",
+          "roleEn": "Executive Chair",
+          "roleZh": "大会执行主席",
+          "affiliationEn": "Professor, Shandong University, Weihai Campus",
+          "affiliationZh": "山东大学（威海）教授"
         }
       ]
     },
@@ -75,26 +99,6 @@
           "affiliationEn": "Room 2008, Building 13, Huaqing Jiayuan, Chengfu Road, Haidian District, Beijing, China",
           "affiliationZh": "北京市海淀区成府路华清嘉园13号楼2008室",
           "email": "freerunner@foxmail.com"
-        }
-      ]
-    },
-    {
-      "id": "technical-program-chair",
-      "titleEn": "Technical Program Chair",
-      "titleZh": "程序委员会主席",
-      "members": [
-        {
-          "name": "Yang Zhimin (杨志敏)",
-          "nameEn": "Yang Zhimin",
-          "nameZh": "杨志敏 (Yang Zhimin)",
-          "avatar": "杨",
-          "avatarEn": "Y",
-          "avatarZh": "杨",
-          "roleEn": "Technical Program Chair",
-          "roleZh": "程序委员会主席",
-          "affiliationEn": "Shandong University, Weihai Campus",
-          "affiliationZh": "山东大学（威海）",
-          "email": "yangzhimin@aivta.org"
         }
       ]
     }

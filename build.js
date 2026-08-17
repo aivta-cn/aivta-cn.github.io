@@ -129,7 +129,7 @@ function renderCommittee() {
                         <div class="committee-card">
                             <div class="committee-avatar" data-en="${esc(m.avatarEn || m.avatar)}" data-zh="${esc(m.avatarZh || m.avatar)}">${esc(m.avatarEn || m.avatar)}</div>
                             <div class="committee-info">
-                                <h4 data-en="${esc(m.nameEn || m.name)}" data-zh="${esc(m.nameZh || m.name)}">${esc(m.nameEn || m.name)}</h4>
+                                <h4 data-en="${esc(m.nameEn || m.name)}" data-zh="${esc(m.nameZh || m.name)}">${m.link ? `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nameEn || m.name)}</a>` : esc(m.nameEn || m.name)}</h4>
                                 <p class="committee-role" data-en="${esc(m.roleEn)}" data-zh="${esc(m.roleZh)}">${m.roleEn}</p>
                                 <p class="committee-affiliation" data-en="${esc(m.affiliationEn)}" data-zh="${esc(m.affiliationZh)}">${m.affiliationEn}</p>`;
       if (m.email) {
