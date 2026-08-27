@@ -319,9 +319,9 @@ function buildPage(config) {
 
   // Assemble partials
   const head = loadPartial('head')
-    .replace('{{PAGE_TITLE_EN}}', esc(config.titleEn))
-    .replace('{{PAGE_TITLE_ZH}}', esc(config.titleZh))
-    .replace('{{META_DESC}}', esc(config.metaDesc));
+    .replace(/\{\{PAGE_TITLE_EN\}\}/g, esc(config.titleEn))
+    .replace(/\{\{PAGE_TITLE_ZH\}\}/g, esc(config.titleZh))
+    .replace(/\{\{META_DESC\}\}/g, esc(config.metaDesc));
 
   const header = loadPartial('header')
     .replace('{{NAV_LINKS}}', renderNavLinks(config.pageId));

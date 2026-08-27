@@ -584,6 +584,15 @@ li {
     color: var(--text-light);
 }
 
+.highlights-note {
+    margin: 30px auto 0;
+    max-width: 720px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    opacity: 0.85;
+}
+
 /* ========================================
    Committee Section
    ======================================== */

@@ -4,9 +4,9 @@
       "id": "full-paper-submission",
       "labelEn": "Full Paper Submission Deadline",
       "labelZh": "全文提交截止",
-      "dateEn": "September 30, 2026",
-      "dateZh": "2026年9月30日",
-      "iso": "2026-09-30"
+      "dateEn": "October 8, 2026",
+      "dateZh": "2026年10月8日",
+      "iso": "2026-10-08"
     },
     {
       "id": "acceptance-notification",
@@ -36,9 +36,9 @@
       "id": "early-bird-registration",
       "labelEn": "Early Bird Registration Deadline",
       "labelZh": "早鸟注册截止",
-      "dateEn": "October 15, 2026",
-      "dateZh": "2026年10月15日",
-      "iso": "2026-10-15"
+      "dateEn": "September 30, 2026",
+      "dateZh": "2026年9月30日",
+      "iso": "2026-09-30"
     },
     {
       "id": "conference-dates",
