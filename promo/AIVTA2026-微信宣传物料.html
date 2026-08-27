@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIVTA 2026 微信宣传物料</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --ink: #ecf7ff;
+      --muted: #a9bfd2;
+      --navy: #07111f;
+      --blue: #42d9ff;
+      --violet: #8d72ff;
+      --lime: #b8ffdc;
+      --warm: #ffc77a;
+    }
+    html, body { margin: 0; background: #111827; }
+    body { font-family: "Hiragino Sans GB", "Heiti SC", "STHeiti", "Arial Unicode MS", sans-serif; color: var(--ink); }
+    .poster {
+      width: 1080px;
+      height: 1440px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 86% 8%, rgba(141,114,255,.36), transparent 28%),
+        radial-gradient(circle at 14% 58%, rgba(66,217,255,.20), transparent 29%),
+        linear-gradient(147deg, #091426 0%, #06101c 58%, #0c1526 100%);
+      isolation: isolate;
+    }
+    .poster::before {
+      content: "";
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.034) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.034) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: linear-gradient(to bottom, black, transparent 78%);
+      z-index: -2;
+    }
+    .poster::after {
+      content: "";
+      position: absolute;
+      width: 720px; height: 720px; right: -310px; bottom: -240px;
+      border: 1px solid rgba(66,217,255,.45); border-radius: 50%;
+      box-shadow: 0 0 0 90px rgba(66,217,255,.04), 0 0 0 180px rgba(141,114,255,.035);
+      z-index: -1;
+    }
+    .pad { padding: 76px 78px 70px; height: 100%; display: flex; flex-direction: column; }
+    .topline { display: flex; align-items: center; justify-content: space-between; }
+    .brand { font: 800 32px/1 "Avenir Next", sans-serif; letter-spacing: 4px; color: white; }
+    .tag { font-size: 22px; letter-spacing: 2px; color: var(--blue); border: 1px solid rgba(66,217,255,.55); border-radius: 999px; padding: 11px 20px 10px; }
+    .kicker { margin-top: 86px; color: var(--blue); font-size: 24px; font-weight: 700; letter-spacing: 5px; }
+    h1 { margin: 25px 0 18px; font-size: 79px; line-height: 1.12; letter-spacing: -2px; font-weight: 900; }
+    h1 em { color: var(--blue); font-style: normal; }
+    .subtitle { font-size: 27px; line-height: 1.58; color: #c6d7e5; max-width: 840px; }
+    .facts { display: grid; grid-template-columns: 1.08fr .92fr .92fr; gap: 14px; margin-top: 52px; }
+    .fact { border: 1px solid rgba(255,255,255,.15); background: rgba(255,255,255,.055); padding: 23px 23px 21px; border-radius: 16px; }
+    .fact span { display: block; color: var(--muted); font-size: 18px; margin-bottom: 7px; }
+    .fact strong { display: block; color: white; font-size: 25px; line-height: 1.25; }
+    .section-label { margin-top: 48px; font-size: 21px; color: var(--lime); letter-spacing: 4px; font-weight: 800; }
+    .benefits { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 19px; }
+    .benefit { min-height: 140px; border-radius: 18px; padding: 25px 26px; background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035)); border: 1px solid rgba(255,255,255,.14); }
+    .benefit b { display: block; font-size: 27px; margin-bottom: 8px; color: white; }
+    .benefit p { margin: 0; font-size: 20px; line-height: 1.55; color: #bcd0df; }
+    .benefit .num { color: var(--blue); margin-right: 8px; }
+    .indexing { margin-top: 18px; display: flex; gap: 18px; align-items: center; padding: 23px 26px; border-radius: 18px; background: linear-gradient(90deg, rgba(66,217,255,.16), rgba(141,114,255,.14)); border: 1px solid rgba(66,217,255,.34); }
+    .indexing strong { font-size: 26px; white-space: nowrap; color: white; }
+    .indexing p { margin: 0; font-size: 18px; line-height: 1.5; color: #d1deea; }
+    .footer { margin-top: auto; display: flex; align-items: flex-end; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.14); padding-top: 26px; }
+    .audience { font-size: 19px; line-height: 1.65; color: var(--muted); }
+    .link { text-align: right; }
+    .link strong { display: block; color: white; font-size: 25px; letter-spacing: .5px; }
+    .link span { display: block; color: var(--blue); font-size: 19px; margin-top: 5px; }
+
+    .poster-2 .kicker { margin-top: 58px; }
+    .poster-2 h1 { font-size: 86px; margin-bottom: 10px; }
+    .poster-2 .subtitle { font-size: 25px; }
+    .topic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin-top: 34px; }
+    .topic { display: flex; gap: 16px; align-items: center; min-height: 74px; padding: 15px 20px; border-radius: 14px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); font-size: 21px; color: #d9e7f1; }
+    .topic i { font-style: normal; display: grid; place-items: center; width: 38px; height: 38px; flex: 0 0 38px; border-radius: 10px; color: #07111f; background: var(--blue); font: 800 15px/1 "Avenir Next", sans-serif; }
+    .timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 25px; }
+    .date { padding: 19px 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.13); background: rgba(255,255,255,.055); text-align: center; }
+    .date span { font-size: 16px; color: var(--muted); display: block; margin-bottom: 5px; }
+    .date strong { font-size: 22px; color: white; }
+    .date.primary { border-color: rgba(255,199,122,.6); background: rgba(255,199,122,.12); }
+    .date.primary strong { color: var(--warm); }
+    .pubbox { display: grid; grid-template-columns: 1.13fr .87fr; gap: 15px; margin-top: 24px; }
+    .pub { border-radius: 17px; padding: 24px 25px; border: 1px solid rgba(66,217,255,.35); background: linear-gradient(135deg, rgba(66,217,255,.15), rgba(141,114,255,.10)); }
+    .pub b { display: block; font-size: 25px; color: white; margin-bottom: 7px; }
+    .pub p { margin: 0; font-size: 18px; line-height: 1.54; color: #c5d6e3; }
+    .pub.small { border-color: rgba(184,255,220,.26); background: rgba(184,255,220,.07); }
+    .fineprint { margin: 13px 0 0; color: #849bae; font-size: 15px; line-height: 1.48; }
+
+    .poster-3 .pad { padding-top: 60px; padding-bottom: 52px; }
+    .poster-3 .kicker { margin-top: 36px; }
+    .poster-3 h1 { margin: 14px 0 10px; font-size: 62px; }
+    .host-strip { margin-top: 18px; display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; border-radius: 17px; background: linear-gradient(90deg, rgba(66,217,255,.18), rgba(141,114,255,.16)); border: 1px solid rgba(66,217,255,.42); }
+    .host-strip span { color: var(--blue); font-size: 18px; font-weight: 700; letter-spacing: 3px; }
+    .host-strip b { color: white; font-size: 28px; }
+    .leaders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+    .leader { min-height: 275px; border-radius: 18px; overflow: hidden; background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035)); border: 1px solid rgba(255,255,255,.15); }
+    .leader-info { padding: 20px 21px 22px; }
+    .leader-role { color: var(--blue); font-size: 16px; font-weight: 800; letter-spacing: 2px; }
+    .leader h2 { font-size: 31px; margin: 7px 0 1px; color: white; }
+    .leader-name-en { color: var(--muted); font: 600 16px/1.3 "Avenir Next", sans-serif; }
+    .leader-line { width: 40px; height: 3px; margin: 13px 0 10px; background: var(--blue); }
+    .leader p { margin: 0; color: #c6d6e1; font-size: 15px; line-height: 1.54; }
+    .poster-highlights { display: grid; grid-template-columns: 1.18fr .82fr; gap: 17px; margin-top: 18px; }
+    .index-focus { border-radius: 19px; padding: 23px 26px; background: linear-gradient(135deg, rgba(66,217,255,.19), rgba(141,114,255,.18)); border: 1px solid rgba(66,217,255,.5); }
+    .index-focus span { display: block; color: var(--blue); font-size: 16px; font-weight: 800; letter-spacing: 3px; }
+    .index-focus b { display: block; color: white; font-size: 30px; line-height: 1.22; margin: 8px 0; }
+    .index-focus p { margin: 0; color: #cadbe7; font-size: 16px; line-height: 1.48; }
+    .more-points { display: grid; grid-template-columns: 1fr; gap: 10px; }
+    .point { padding: 13px 17px; border-radius: 14px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.13); }
+    .point b { display: block; color: white; font-size: 19px; margin-bottom: 3px; }
+    .point span { color: var(--muted); font-size: 15px; line-height: 1.35; }
+    .topic-line { margin-top: 17px; padding: 15px 19px; border-radius: 15px; background: rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.12); color: #c8d8e4; font-size: 16px; line-height: 1.5; }
+    .topic-line b { color: var(--lime); }
+    .poster-3 .footer { padding-top: 17px; }
+
+    .sheet { display: none; }
+    @page { size: A4; margin: 0; }
+    @media print {
+      html, body { margin: 0; background: white; }
+      .poster { display: none !important; }
+      .sheet { display: block; width: 210mm; height: 297mm; overflow: hidden; color: #132235; background: white; position: relative; }
+      .sheet::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 58mm; background: linear-gradient(125deg, #071829, #0c2d48 62%, #3346a1); z-index: 0; }
+      .sheet-inner { position: relative; z-index: 1; height: 100%; padding: 14mm 16mm 11mm; }
+      .s-brand { color: #70e4ff; font: 800 12pt/1 "Avenir Next", sans-serif; letter-spacing: 2.4px; }
+      .s-title { color: white; font-size: 25pt; font-weight: 900; line-height: 1.2; margin: 5mm 0 2mm; }
+      .s-sub { color: #d6e8f3; font-size: 10.5pt; }
+      .s-facts { display: flex; gap: 5mm; margin-top: 7mm; }
+      .s-fact { color: white; font-size: 9.4pt; }
+      .s-fact b { color: #70e4ff; margin-right: 1.5mm; }
+      .s-columns { display: grid; grid-template-columns: 1.05fr .95fr; gap: 8mm; margin-top: 13mm; }
+      .s-leaders { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr 1fr 1.05fr; gap: 2.5mm; margin-bottom: 2mm; }
+      .s-leader { min-height: 28mm; padding: 3.5mm; background: #eff7fb; border: .3mm solid #c4dfe9; border-radius: 2mm; }
+      .s-leader b { display: block; color: #0d3551; font-size: 9.6pt; margin: .5mm 0 1mm; }
+      .s-leader small { display: block; color: #496175; font-size: 6.9pt; line-height: 1.42; }
+      .s-host { min-height: 28mm; padding: 4mm; color: white; border-radius: 2mm; background: linear-gradient(130deg, #09233a, #293c89); }
+      .s-host span { display: block; color: #70e4ff; font-size: 7pt; letter-spacing: 1.5px; margin-bottom: 2mm; }
+      .s-host b { display: block; font-size: 11pt; line-height: 1.35; }
+      .s-host small { display: block; margin-top: 2mm; font-size: 6.8pt; color: #d8e7f4; }
+      .sheet h2 { color: #0d3551; font-size: 14pt; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: .6mm solid #48cdec; }
+      .sheet h3 { color: #123958; font-size: 10.5pt; margin: 4mm 0 1.5mm; }
+      .sheet p, .sheet li { font-size: 8.7pt; line-height: 1.53; color: #34475a; }
+      .sheet p { margin: 0 0 2mm; }
+      .sheet ul { margin: 0; padding-left: 5mm; }
+      .sheet li { margin-bottom: 1.4mm; }
+      .s-benefit { background: #f0f8fb; border-left: 1mm solid #35c3e7; padding: 3mm 3.5mm; margin-bottom: 2.2mm; border-radius: 1.5mm; }
+      .s-benefit b { font-size: 9.2pt; color: #0d3551; }
+      .s-index { background: linear-gradient(120deg, #eafaff, #f1edff); border: .35mm solid #a7dce9; padding: 3.5mm; border-radius: 2mm; margin-top: 3mm; }
+      .s-index strong { color: #173d5b; font-size: 10pt; }
+      .s-index p { margin: 1mm 0 0; }
+      .s-dates { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+      .s-dates td { font-size: 8.4pt; padding: 1.7mm 0; border-bottom: .25mm solid #dae5eb; color: #34475a; }
+      .s-dates td:last-child { text-align: right; font-weight: 700; color: #173d5b; }
+      .s-cta { margin-top: 5mm; background: #071829; color: white; border-radius: 2.5mm; padding: 4mm 4.5mm; }
+      .s-cta b { display: block; color: #70e4ff; font-size: 10pt; margin-bottom: 1mm; }
+      .s-cta span { display: block; font-size: 8.8pt; line-height: 1.6; }
+      .s-note { position: absolute; left: 16mm; right: 16mm; bottom: 8mm; color: #6a7b89; font-size: 6.8pt; line-height: 1.4; border-top: .25mm solid #d7e1e6; padding-top: 2.3mm; }
+    }
+  </style>
+</head>
+<body>
+  <section class="poster poster-1" id="poster-benefits">
+    <div class="pad">
+      <div class="topline">
+        <div class="brand">AIVTA 2026</div>
+        <div class="tag">首届·国际会议</div>
+      </div>
+      <div class="kicker">AI VIDEO × RESEARCH × INDUSTRY</div>
+      <h1>把研究带进<br><em>AI视频</em>的下一现场</h1>
+      <div class="subtitle">AI视频技术及其应用国际会议<br>汇聚学术前沿、创作实践与产业落地</div>
+      <div class="facts">
+        <div class="fact"><span>会议时间</span><strong>2026.11.13—15</strong></div>
+        <div class="fact"><span>会议地点</span><strong>中国·合肥</strong></div>
+        <div class="fact"><span>全文截止</span><strong>2026.09.30</strong></div>
+      </div>
+      <div class="section-label">你将收获</div>
+      <div class="benefits">
+        <div class="benefit"><b><span class="num">01</span>前沿视野</b><p>集中了解 AIGC、虚拟制片、数字人与智能后期新进展</p></div>
+        <div class="benefit"><b><span class="num">02</span>同行反馈</b><p>展示成果、讨论方法，为论文与后续研究获得启发</p></div>
+        <div class="benefit"><b><span class="num">03</span>跨界连接</b><p>与高校、科研、算法、影视与内容产业从业者交流</p></div>
+        <div class="benefit"><b><span class="num">04</span>成果传播</b><p>通过会议报告与论文集路径，提升成果的可见度</p></div>
+      </div>
+      <div class="indexing">
+        <strong>EI / Scopus</strong>
+        <p>会议论文集拟提交 EI Compendex 和 Scopus 检索；组委会积极推进，最终以数据库独立审核结果为准。</p>
+      </div>
+      <div class="footer">
+        <div class="audience">面向高校教师·研究生·科研人员<br>算法工程师·影视与数字媒体从业者</div>
+        <div class="link"><strong>aivta.org</strong><span>adv@aivta.org</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="poster poster-2" id="poster-cfp">
+    <div class="pad">
+      <div class="topline">
+        <div class="brand">AIVTA 2026</div>
+        <div class="tag">CALL FOR PAPERS</div>
+      </div>
+      <div class="kicker">首届AI视频技术及其应用国际会议</div>
+      <h1>征稿启事</h1>
+      <div class="subtitle">欢迎学术界与产业界提交原创研究和应用实践成果</div>
+      <div class="topic-grid">
+        <div class="topic"><i>AI</i>生成式AI与创意内容</div>
+        <div class="topic"><i>VP</i>智能拍摄与虚拟制片</div>
+        <div class="topic"><i>PP</i>多模态感知与后期自动化</div>
+        <div class="topic"><i>VFX</i>计算机图形学与视效</div>
+        <div class="topic"><i>BD</i>影视大数据与智能分发</div>
+        <div class="topic"><i>XR</i>沉浸式媒体与交互叙事</div>
+        <div class="topic"><i>ET</i>合规、伦理治理与法律规制</div>
+        <div class="topic"><i>IN</i>产业变革与人才培养</div>
+      </div>
+      <div class="section-label">重要时间</div>
+      <div class="timeline">
+        <div class="date primary"><span>全文截止</span><strong>09.30</strong></div>
+        <div class="date"><span>录用通知</span><strong>10.15</strong></div>
+        <div class="date"><span>终稿截止</span><strong>10.25</strong></div>
+        <div class="date"><span>会议日期</span><strong>11.13—15</strong></div>
+      </div>
+      <div class="pubbox">
+        <div class="pub"><b>论文集拟提交检索</b><p>经同行评审录用并完成规定流程的论文，将按出版计划提交论文集及 EI Compendex、Scopus 检索。</p></div>
+        <div class="pub small"><b>优秀论文推荐</b><p>有机会获得后续期刊推荐，需按期刊要求另行审核。</p></div>
+      </div>
+      <p class="fineprint">* EI Compendex、Scopus 为独立数据库，是否最终检索以出版及数据库审核结果为准，不作检索保证。投稿与日期信息请以官网最新通知为准。</p>
+      <div class="footer">
+        <div class="audience">2026年11月13日—15日<br>中国·安徽·合肥</div>
+        <div class="link"><strong>aivta.org</strong><span>投稿：adv@aivta.org</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="poster poster-3" id="poster-leaders">
+    <div class="pad">
+      <div class="topline">
+        <div class="brand">AIVTA 2026</div>
+        <div class="tag">权威阵容·聚力AI视频</div>
+      </div>
+      <div class="kicker">首届AI视频技术及其应用国际会议</div>
+      <h1>专家领衔 · 学术聚力</h1>
+      <div class="host-strip"><span>HOST ORGANIZATION</span><b>主办单位：IEEE中国联合会</b></div>
+      <div class="leaders">
+        <article class="leader">
+          <div class="leader-info">
+            <div class="leader-role">大会主席</div>
+            <h2>梁昌勇</h2>
+            <div class="leader-name-en">Changyong Liang</div>
+            <div class="leader-line"></div>
+            <p>教育部“长江学者”特聘教授<br>国务院特殊津贴专家<br>合肥工业大学科研院副院长</p>
+          </div>
+        </article>
+        <article class="leader">
+          <div class="leader-info">
+            <div class="leader-role">大会共同主席</div>
+            <h2>蒋翠清</h2>
+            <div class="leader-name-en">Cuiqing Jiang</div>
+            <div class="leader-line"></div>
+            <p>国家高层次人才计划入选者<br>国务院特殊津贴专家<br>合肥工业大学二级教授、博士生导师</p>
+          </div>
+        </article>
+        <article class="leader">
+          <div class="leader-info">
+            <div class="leader-role">出版委员会主席</div>
+            <h2>周孟奇</h2>
+            <div class="leader-name-en">Mengqi Zhou</div>
+            <div class="leader-line"></div>
+            <p>IEEE中国联合会常务副主席<br>IEEE中国会议委员会主席</p>
+          </div>
+        </article>
+      </div>
+      <div class="poster-highlights">
+        <div class="index-focus"><span>PUBLICATION &amp; INDEXING</span><b>论文集拟提交<br>EI Compendex / Scopus</b><p>经同行评审录用并完成规定流程的论文，将按出版计划提交论文集及检索。组委会积极推进检索，最终以数据库独立审核为准。</p></div>
+        <div class="more-points">
+          <div class="point"><b>优秀论文期刊推荐</b><span>有机会推荐至 SCI / SSCI / EI 相关期刊，需另行审核</span></div>
+          <div class="point"><b>前沿交流与同行反馈</b><span>主旨报告·技术分会·专题讨论</span></div>
+          <div class="point"><b>跨学科与产学研合作</b><span>连接高校、科研、算法、影视与产业实践</span></div>
+        </div>
+      </div>
+      <div class="topic-line"><b>八大征稿方向：</b>AIGC与创意内容·虚拟制片·后期自动化·VFX·智能分发·沉浸式媒体·合规治理·产业与人才培养</div>
+      <div class="footer">
+        <div class="audience">2026年11月13日—15日·中国合肥<br>全文投稿截止：2026年10月8日</div>
+        <div class="link"><strong>aivta.org</strong><span>adv@aivta.org</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sheet" id="brochure">
+    <div class="sheet-inner">
+      <div class="s-brand">AIVTA 2026 · CALL FOR PAPERS</div>
+      <div class="s-title">首届AI视频技术及其应用国际会议</div>
+      <div class="s-sub">International Conference on AI Video Technology and Applications</div>
+      <div class="s-facts">
+        <div class="s-fact"><b>时间</b>2026年11月13日—15日</div>
+        <div class="s-fact"><b>地点</b>中国·安徽·合肥</div>
+        <div class="s-fact"><b>全文截止</b>2026年10月8日</div>
+      </div>
+      <div class="s-columns">
+        <div class="s-leaders">
+          <div class="s-leader"><b>梁昌勇 · 大会主席</b><small>长江学者特聘教授、国务院特殊津贴专家，合肥工业大学科研院副院长</small></div>
+          <div class="s-leader"><b>蒋翠清 · 大会共同主席</b><small>国家高层次人才计划入选者、国务院特殊津贴专家，合肥工业大学二级教授、博士生导师</small></div>
+          <div class="s-leader"><b>周孟奇 · 出版委员会主席</b><small>IEEE中国联合会常务副主席、IEEE中国会议委员会主席</small></div>
+          <div class="s-host"><span>HOST ORGANIZATION</span><b>主办单位<br>IEEE中国联合会</b><small>cn.ieee.org/china_council/</small></div>
+        </div>
+        <div>
+          <h2>会议与参会价值</h2>
+          <p>AIVTA 2026 面向 AI、计算机视觉、数字媒体及影视技术相关的高校师生、科研人员和行业从业者，搭建研究、工程、创作与产业对话平台。</p>
+          <div class="s-benefit"><b>了解前沿</b><br><span>通过主旨报告、技术分会和专题讨论，集中了解 AI 视频的新方法与新应用。</span></div>
+          <div class="s-benefit"><b>打磨成果</b><br><span>以会议报告展示工作，获得同行反馈，完善论文与后续研究。</span></div>
+          <div class="s-benefit"><b>建立连接</b><br><span>与研究者、算法工程师、影视创作者及产业从业者交流，寻找合作契机。</span></div>
+          <div class="s-benefit"><b>扩大传播</b><br><span>经评审录用的研究可通过会议报告与论文集路径获得更多学术可见度。</span></div>
+          <div class="s-index">
+            <strong>论文集拟提交 EI Compendex 和 Scopus 检索</strong>
+            <p>经同行评审录用并完成规定流程的论文，将按出版计划提交论文集及检索。组委会积极推进，最终以数据库独立审核为准。优秀论文有机会获得期刊推荐，需另行审核。</p>
+          </div>
+        </div>
+        <div>
+          <h2>征稿方向</h2>
+          <ul>
+            <li>生成式AI与创意内容生产</li>
+            <li>智能拍摄与虚拟制片技术</li>
+            <li>多模态感知与后期制作自动化</li>
+            <li>计算机图形学与视觉特效</li>
+            <li>影视大数据与智能分发</li>
+            <li>沉浸式媒体与交互叙事</li>
+            <li>合规、伦理治理与法律规制</li>
+            <li>产业变革与人才培养</li>
+          </ul>
+          <h3>投稿要求</h3>
+          <ul>
+            <li>原创、未公开发表，不得一稿多投</li>
+            <li>按 IEEE Conference Template 双栏格式排版</li>
+            <li>参考篇幅：6000—8000字，具体以官网要求为准</li>
+            <li>提交 Word 或 LaTeX 稿件及相关附件</li>
+          </ul>
+          <h3>重要时间</h3>
+          <table class="s-dates">
+            <tr><td>全文投稿截止</td><td>2026.09.30</td></tr>
+            <tr><td>录用通知</td><td>2026.10.15</td></tr>
+            <tr><td>终稿提交截止</td><td>2026.10.25</td></tr>
+            <tr><td>作者注册截止</td><td>2026.10.31</td></tr>
+            <tr><td>会议召开</td><td>2026.11.13—15</td></tr>
+          </table>
+          <div class="s-cta">
+            <b>投稿与咨询</b>
+            <span>邮箱：adv@aivta.org</span>
+            <span>官网：https://aivta.org</span>
+          </div>
+        </div>
+      </div>
+      <div class="s-note">重要说明：EI Compendex、Scopus 为独立数据库，是否最终检索取决于出版与数据库的审核结果，不作检索保证。会议日期、地点、投稿与出版安排请以官网最新通知为准。</div>
+    </div>
+  </section>
+</body>
+</html>

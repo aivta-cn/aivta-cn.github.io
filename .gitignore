@@ -1,2 +1,18 @@
-./claude
-./IEEE论文征集启事.md
+# macOS
+.DS_Store
+
+# Runtime logs
+logs/
+.seedream/
+
+# Build / scratch artifacts
+tmp/
+output/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local notes / private docs
+claude/
+docs/IEEE论文征集启事.md
