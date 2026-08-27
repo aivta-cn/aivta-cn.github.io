@@ -126,7 +126,7 @@ AIGC视觉资产生成：​ 基于扩散模型（Diffusion Model）的高保真
 
 （二）重要时间节点（暂定）
 
-全文投稿截止日期：​ 2026年9月30日
+全文投稿截止日期：​ 2026年10月8日
 
 录用通知发出日期：​ 2026年10月15日
 
@@ -166,7 +166,7 @@ IEEE中国联合会（IEEE China Council）
 
 欧美影视协会（European and American Film and Television Association）
 
-   （地址：#1603 4333 Central Blvd, Burnaby, BC，Canada V5H 4W8，崔淼淼）
+   （地址：1555 22nd Street, West Vancouver BC. Canada V7V 4E1，崔淼淼）
 
 世界华人周刊出版影视集团
 
@@ -184,13 +184,13 @@ IEEE中国联合会（IEEE China Council）
 
 （KF Times Group Inc.）
 
-   （地址：#1603 4333 Central Blvd, Burnaby, BC，Canada V5H 4W8，郭安国）
+   （地址：1555 22nd Street, West Vancouver BC. Canada V7V 4E1，郭安国）
 
 北京科发影视传媒有限公司
 
 (Beijing Kefa Film and Television Media Co., Ltd.)
 
-（地址：北京市海淀区成府路华清嘉园13号楼2008室，王佳）
+（地址：北京市海淀区成府路华清嘉园13号楼2008室，赵素娟）
 
 安徽中设会展集团
 

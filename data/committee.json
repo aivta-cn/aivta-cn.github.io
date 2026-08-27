@@ -59,6 +59,18 @@
           "roleZh": "大会执行主席",
           "affiliationEn": "Professor, Shandong University, Weihai Campus",
           "affiliationZh": "山东大学（威海）教授"
+        },
+        {
+          "name": "Peter Shi",
+          "nameEn": "Peter Shi",
+          "nameZh": "Peter Shi",
+          "avatar": "P",
+          "avatarEn": "P",
+          "avatarZh": "P",
+          "roleEn": "Executive Chair",
+          "roleZh": "大会执行主席",
+          "affiliationEn": "Professor and Director of the Master of Commerce Program in Supply Chain Management, Macquarie University, Australia; Chartered Fellow, Chartered Institute of Logistics and Transport (CILT); Tianjin Distinguished Professor",
+          "affiliationZh": "澳大利亚麦考瑞大学商学硕士供应链管理专业主任、教授；英国皇家物流与运输学会（CILT）特许院士；天津市特聘教授"
         }
       ]
     },
@@ -88,12 +100,12 @@
       "titleZh": "财务主管",
       "members": [
         {
-          "name": "Wang Jia (王佳)",
-          "nameEn": "Wang Jia",
-          "nameZh": "王佳 (Wang Jia)",
-          "avatar": "王",
-          "avatarEn": "W",
-          "avatarZh": "王",
+          "name": "赵素娟 (SuJuan Zhao)",
+          "nameEn": "SuJuan Zhao",
+          "nameZh": "赵素娟 (SuJuan Zhao)",
+          "avatar": "赵",
+          "avatarEn": "Z",
+          "avatarZh": "赵",
           "roleEn": "Conference Treasurer",
           "roleZh": "财务主管",
           "affiliationEn": "Room 2008, Building 13, Huaqing Jiayuan, Chengfu Road, Haidian District, Beijing, China",
@@ -124,8 +136,8 @@
       {
         "nameEn": "Euro-American Video Technology Association",
         "nameZh": "欧美视频技术协会",
-        "addressEn": "#1603 4333 Central Blvd, Burnaby, BC, Canada V5H 4W8 (Contact: Cui Miaomiao)",
-        "addressZh": "#1603 4333 Central Blvd, Burnaby, BC, Canada V5H 4W8（崔淼淼）"
+        "addressEn": "1555 22nd Street, West Vancouver, BC, Canada V7V 4E1",
+        "addressZh": "1555 22nd Street, West Vancouver, BC, Canada V7V 4E1"
       }
     ]
   },
