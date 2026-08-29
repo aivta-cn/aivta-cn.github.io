@@ -1,12 +1,33 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1 data-en="Submission Guidelines" data-zh="投稿指南">Submission Guidelines</h1>
-            <p data-en="How to submit your paper to AIVTA 2026" data-zh="如何向AIVTA 2026投稿">How to submit your paper to AIVTA 2026</p>
+            <h1 data-en="Call for Papers & Submission" data-zh="征稿与投稿">Call for Papers & Submission</h1>
+            <p data-en="Topics, requirements, and submission process for AIVTA 2026" data-zh="AIVTA 2026 征稿范围、要求与投稿流程">Topics, requirements, and submission process for AIVTA 2026</p>
             <div class="breadcrumb">
                 <a href="index.html" data-en="Home" data-zh="首页">Home</a>
                 <span>/</span>
-                <span data-en="Submission" data-zh="投稿指南">Submission</span>
+                <span data-en="Call for Papers & Submission" data-zh="征稿与投稿">Call for Papers & Submission</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call for Papers -->
+    <section class="section" id="topics">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="section-title text-left" data-en="Call for Papers" data-zh="征稿启事">Call for Papers</h2>
+                    <p data-en="AIVTA 2026 invites original research on artificial intelligence applications in video and film production. We welcome theoretical and applied contributions from academia and industry." data-zh="AIVTA 2026 征集人工智能在视频与影视制作领域应用的原创研究，欢迎学术界与产业界的理论和应用成果。">AIVTA 2026 invites original research on artificial intelligence applications in video and film production. We welcome theoretical and applied contributions from academia and industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topics -->
+    <section class="section section-light">
+        <div class="container">
+            <h2 class="section-title" data-en="Conference Topics" data-zh="会议主题">Conference Topics</h2>
+            <div class="topics-tabs">{{TOPICS:tabs}}
             </div>
         </div>
     </section>
@@ -109,7 +130,7 @@
 
                     <div class="alert alert-warning">
                         <p><strong data-en="Submission Email:" data-zh="投稿邮箱：">Submission Email:</strong> <a href="mailto:adv@aivta.org">adv@aivta.org</a></p>
-                        <p><strong data-en="Submission Deadline:" data-zh="投稿截止日期：">Submission Deadline:</strong> <span data-en="October 8, 2026" data-zh="2026年10月8日">October 8, 2026</span></p>
+                        <p><strong data-en="Submission Deadline:" data-zh="投稿截止日期：">Submission Deadline:</strong> {{DATE:full-paper-submission}}</p>
                     </div>
 
                     <h4 data-en="Submission Steps" data-zh="投稿步骤">Submission Steps</h4>
@@ -141,7 +162,7 @@
             <p data-en="Contact us if you have any questions about the submission process." data-zh="如果您对投稿流程有任何疑问，请联系我们。">Contact us if you have any questions about the submission process.</p>
             <div class="hero-buttons mt-3">
                 <a href="mailto:adv@aivta.org" class="btn btn-primary" data-en="Email Us" data-zh="联系我们">Email Us</a>
-                <a href="call-for-papers.html" class="btn btn-outline" data-en="View Topics" data-zh="查看主题">View Topics</a>
+                <a href="#topics" class="btn btn-outline" data-en="View Topics" data-zh="查看主题">View Topics</a>
             </div>
         </div>
     </section>

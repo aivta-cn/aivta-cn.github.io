@@ -674,6 +674,21 @@ li {
     margin-bottom: 20px;
 }
 
+/* FAQ: compact Q&A list (contact page) */
+.faq-list .submission-info {
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.faq-list .submission-info h4 {
+    margin: 24px 0 8px;
+}
+
+.faq-list .submission-info p {
+    margin: 0;
+}
+
 .requirements-list {
     list-style: none;
     padding-left: 0;

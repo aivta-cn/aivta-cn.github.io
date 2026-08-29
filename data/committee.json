@@ -15,7 +15,8 @@
           "roleEn": "Conference Chair",
           "roleZh": "大会主席",
           "affiliationEn": "Distinguished Professor (Changjiang Scholar, MOE), State Council Special Allowance Expert, Vice Dean of Research Institute, Hefei University of Technology",
-          "affiliationZh": "教育部长江学者特聘教授，享受国务院特殊津贴专家，现任合肥工业大学科研院副院长"
+          "affiliationZh": "教育部长江学者特聘教授，享受国务院特殊津贴专家，现任合肥工业大学科研院副院长",
+          "email": "liangchangyong@aivta.org"
         }
       ]
     },
@@ -49,18 +50,6 @@
           "affiliationZh": "哈尔滨工业大学（威海）教授"
         },
         {
-          "name": "杨志敏 (Yang Zhimin)",
-          "nameEn": "Yang Zhimin",
-          "nameZh": "杨志敏 (Yang Zhimin)",
-          "avatar": "杨",
-          "avatarEn": "Y",
-          "avatarZh": "杨",
-          "roleEn": "Executive Chair",
-          "roleZh": "大会执行主席",
-          "affiliationEn": "Professor, Shandong University, Weihai Campus",
-          "affiliationZh": "山东大学（威海）教授"
-        },
-        {
           "name": "Peter Shi",
           "nameEn": "Peter Shi",
           "nameZh": "Peter Shi",
@@ -71,6 +60,26 @@
           "roleZh": "大会执行主席",
           "affiliationEn": "Professor and Director of the Master of Commerce Program in Supply Chain Management, Macquarie University, Australia; Chartered Fellow, Chartered Institute of Logistics and Transport (CILT); Tianjin Distinguished Professor",
           "affiliationZh": "澳大利亚麦考瑞大学商学硕士供应链管理专业主任、教授；英国皇家物流与运输学会（CILT）特许院士；天津市特聘教授"
+        }
+      ]
+    },
+    {
+      "id": "technical-program-chair",
+      "titleEn": "Technical Program Chair",
+      "titleZh": "程序委员会主席",
+      "members": [
+        {
+          "name": "杨志敏 (Yang Zhimin)",
+          "nameEn": "Yang Zhimin",
+          "nameZh": "杨志敏 (Yang Zhimin)",
+          "avatar": "杨",
+          "avatarEn": "Y",
+          "avatarZh": "杨",
+          "roleEn": "Technical Program Chair",
+          "roleZh": "程序委员会主席",
+          "affiliationEn": "Professor, Shandong University, Weihai Campus",
+          "affiliationZh": "山东大学（威海）教授",
+          "email": "yangzhimin@aivta.org"
         }
       ]
     },
@@ -89,8 +98,7 @@
           "roleEn": "Publication Committee Chair",
           "roleZh": "出版委员会主席",
           "affiliationEn": "Chair of IEEE China Conference Committee, IEEE China Council",
-          "affiliationZh": "IEEE中国会议委员会主席，IEEE中国联合会",
-          "email": "zhou698@vip.sina.com"
+          "affiliationZh": "IEEE中国会议委员会主席，IEEE中国联合会"
         }
       ]
     },

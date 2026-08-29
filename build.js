@@ -63,6 +63,12 @@ function renderDatesTable(dateIds) {
                             </tr>`).join('');
 }
 
+function renderDateInline(dateId) {
+  const entry = datesData.entries.find(e => e.id === dateId.trim());
+  if (!entry) return '';
+  return `<span data-en="${esc(entry.dateEn)}" data-zh="${esc(entry.dateZh)}">${entry.dateEn}</span>`;
+}
+
 function renderTopics(layout) {
   if (layout === 'grid') {
     return topicsData.map(t => `
@@ -313,6 +319,7 @@ function buildPage(config) {
   content = content
     .replace(/\{\{DATES:([\w,-]+)\}\}/g, (_, ids) => renderDates(ids.split(',')))
     .replace(/\{\{DATES_TABLE:([\w,-]+)\}\}/g, (_, ids) => renderDatesTable(ids.split(',')))
+    .replace(/\{\{DATE:([\w-]+)\}\}/g, (_, id) => renderDateInline(id))
     .replace(/\{\{TOPICS:(grid|tabs|compact)\}\}/g, (_, layout) => renderTopics(layout))
     .replace(/\{\{TOPIC_GRID\}\}/g, () => renderTopicGrid())
     .replace(/\{\{COMMITTEE\}\}/g, () => renderCommittee());
