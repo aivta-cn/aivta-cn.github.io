@@ -64,6 +64,24 @@
       ]
     },
     {
+      "id": "conference-secretary",
+      "titleEn": "Conference Secretary-General",
+      "titleZh": "大会秘书长",
+      "members": [
+        {
+          "name": "王钰博 (Wang Yubo)",
+          "nameEn": "Wang Yubo",
+          "nameZh": "王钰博 (Wang Yubo)",
+          "avatar": "王",
+          "avatarEn": "W",
+          "avatarZh": "王",
+          "roleEn": "Conference Secretary-General",
+          "roleZh": "大会秘书长",
+          "email": "wangyubo@aivta.org"
+        }
+      ]
+    },
+    {
       "id": "technical-program-chair",
       "titleEn": "Technical Program Chair",
       "titleZh": "程序委员会主席",
@@ -97,8 +115,8 @@
           "avatarZh": "周",
           "roleEn": "Publication Committee Chair",
           "roleZh": "出版委员会主席",
-          "affiliationEn": "Chair of IEEE China Conference Committee, IEEE China Council",
-          "affiliationZh": "IEEE中国会议委员会主席，IEEE中国联合会"
+          "affiliationEn": "Chair of IEEE China Conference Committee",
+          "affiliationZh": "IEEE中国会议委员会主席"
         }
       ]
     },
