@@ -190,20 +190,24 @@ function renderCommittee() {
   html += `
                         </ul>
                     </div>
-
+`;
+  if (committeeData.organizers.coOrganizers.length > 0) {
+    html += `
                     <div class="submission-info">
                         <h4 data-en="${esc(committeeData.organizers.coHostTitleEn)}" data-zh="${esc(committeeData.organizers.coHostTitleZh)}">${committeeData.organizers.coHostTitleEn}</h4>
                         <ul class="requirements-list">`;
-  committeeData.organizers.coOrganizers.forEach(co => {
-    html += `
+    committeeData.organizers.coOrganizers.forEach(co => {
+      html += `
                             <li>
                                 <strong data-en="${esc(co.nameEn)}" data-zh="${esc(co.nameZh)}">${co.nameEn}</strong><br>
                                 <span data-en="Address: ${esc(co.addressEn)}" data-zh="地址：${esc(co.addressZh)}">Address: ${co.addressEn}</span>
                             </li>`;
-  });
-  html += `
+    });
+    html += `
                         </ul>
-                    </div>
+                    </div>`;
+  }
+  html += `
                 </div>
             </div>
         </section>`;

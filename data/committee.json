@@ -134,8 +134,6 @@
           "avatarZh": "赵",
           "roleEn": "Conference Treasurer",
           "roleZh": "财务主管",
-          "affiliationEn": "Room 2008, Building 13, Huaqing Jiayuan, Chengfu Road, Haidian District, Beijing, China",
-          "affiliationZh": "北京市海淀区成府路华清嘉园13号楼2008室",
           "email": "freerunner@foxmail.com"
         }
       ]
@@ -158,14 +156,7 @@
         "addressZh": "北京市海淀区科学院南路2号融科资讯中心C座南楼1503室"
       }
     ],
-    "coOrganizers": [
-      {
-        "nameEn": "Euro-American Video Technology Association",
-        "nameZh": "欧美视频技术协会",
-        "addressEn": "1555 22nd Street, West Vancouver, BC, Canada V7V 4E1",
-        "addressZh": "1555 22nd Street, West Vancouver, BC, Canada V7V 4E1"
-      }
-    ]
+    "coOrganizers": []
   },
   "keynoteSection": {
     "titleEn": "Keynote Speakers & Distinguished Guests",
