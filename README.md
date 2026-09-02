@@ -9,7 +9,8 @@ November 13-15, 2026 | Hefei, Anhui, China
 This is the official website for AIVTA 2026, hosted on GitHub Pages.
 
 - **Website**: https://aivta-cn.github.io
-- **Email**: adv@aivta.org
+- **Submission system**: https://edas.info/N35727
+- **Contact email**: adv@aivta.org
 
 ## Features
 
@@ -72,7 +73,8 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 
 ## Contact
 
-- **Submission Email**: adv@aivta.org
+- **Submission system**: https://edas.info/N35727
+- **Contact email**: adv@aivta.org
 - **Venue**: Hefei, Anhui Province, China
 
 ## Other
