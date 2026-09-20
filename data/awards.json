@@ -1,0 +1,70 @@
+{
+  "awards": [
+    {
+      "id": "best-paper",
+      "nameEn": "Best Paper Award",
+      "nameZh": "最佳论文奖",
+      "countEn": "1 winner",
+      "countZh": "1 名",
+      "eligibilityEn": "Highest-scored paper overall",
+      "eligibilityZh": "全场评分最高的论文",
+      "rewardEn": "Certificate + trophy + SCI/SSCI/EI journal recommendation",
+      "rewardZh": "证书 + 奖杯 + SCI/SSCI/EI 源刊推荐"
+    },
+    {
+      "id": "best-student-paper",
+      "nameEn": "Best Student Paper Award",
+      "nameZh": "最佳学生论文奖",
+      "countEn": "1 first prize + 2 second prizes",
+      "countZh": "一等奖 1 名 + 二等奖 2 名",
+      "eligibilityEn": "First author is an enrolled undergraduate or Master's student at submission",
+      "eligibilityZh": "投稿时第一作者为在读本科生或硕士生",
+      "rewardEn": "Certificate + registration waiver or prize + journal fast-track",
+      "rewardZh": "证书 + 注册费减免或奖金 + 源刊推荐优先"
+    },
+    {
+      "id": "outstanding-paper",
+      "nameEn": "Outstanding Paper Award",
+      "nameZh": "优秀论文奖",
+      "countEn": "1 per track (8 total)",
+      "countZh": "每主题 1 名（共 8 名）",
+      "eligibilityEn": "Highest-scored paper in each track",
+      "eligibilityZh": "各主题评分最高的论文",
+      "rewardEn": "Certificate",
+      "rewardZh": "证书"
+    },
+    {
+      "id": "best-presentation",
+      "nameEn": "Best Presentation Award",
+      "nameZh": "最佳报告奖",
+      "countEn": "1 oral + 1 poster",
+      "countZh": "口头 1 名 + 海报 1 名",
+      "eligibilityEn": "Scored on live presentation",
+      "eligibilityZh": "按现场报告评分",
+      "rewardEn": "Certificate awarded on-site",
+      "rewardZh": "现场即时颁发证书"
+    },
+    {
+      "id": "student-travel-grant",
+      "nameEn": "Student Travel Grant",
+      "nameZh": "学生差旅资助",
+      "countEn": "10 recipients",
+      "countZh": "10 名",
+      "eligibilityEn": "First author of an outstanding or awarded paper, an enrolled undergraduate or Master's student",
+      "eligibilityZh": "优秀论文或获奖论文的第一作者，且为在读本科生或硕士生",
+      "rewardEn": "Round-trip travel (up to 1500 CNY/person) + free on-site accommodation + conference meals",
+      "rewardZh": "往返交通（上限 1500 元/人）+ 会议期间免费住宿 + 会议餐食"
+    },
+    {
+      "id": "outstanding-advisor",
+      "nameEn": "Outstanding Advisor Award",
+      "nameZh": "优秀指导教师奖",
+      "countEn": "Several",
+      "countZh": "若干名",
+      "eligibilityEn": "Advised an accepted or awarded paper",
+      "eligibilityZh": "指导出录用或获奖论文",
+      "rewardEn": "Certificate",
+      "rewardZh": "证书"
+    }
+  ]
+}

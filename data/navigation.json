@@ -3,6 +3,7 @@
     { "href": "index.html",           "id": "index",           "labelEn": "Home",              "labelZh": "首页" },
     { "href": "committee.html",       "id": "committee",       "labelEn": "Committee",         "labelZh": "组织委员会" },
     { "href": "submission.html",      "id": "submission",      "labelEn": "Submission",        "labelZh": "征稿与投稿" },
+    { "href": "students.html",        "id": "students",        "labelEn": "For Students",      "labelZh": "学生专区" },
     { "href": "registration.html",    "id": "registration",    "labelEn": "Registration",      "labelZh": "注册" },
     { "href": "publication.html",     "id": "publication",     "labelEn": "Publication",       "labelZh": "出版" },
     { "href": "program.html",         "id": "program",         "labelEn": "Program",           "labelZh": "会议日程" },

@@ -13,6 +13,7 @@ const datesData = JSON.parse(fs.readFileSync('data/dates.json', 'utf8'));
 const topicsData = JSON.parse(fs.readFileSync('data/topics.json', 'utf8'));
 const navData = JSON.parse(fs.readFileSync('data/navigation.json', 'utf8'));
 const committeeData = JSON.parse(fs.readFileSync('data/committee.json', 'utf8'));
+const awardsData = JSON.parse(fs.readFileSync('data/awards.json', 'utf8'));
 
 // ── Helpers ────────────────────────────────────────────────
 function loadPartial(name) {
@@ -241,6 +242,31 @@ function renderCommittee() {
   return html;
 }
 
+function renderAwards() {
+  const rows = awardsData.awards.map(a => `
+                    <tr>
+                        <td data-en="${esc(a.nameEn)}" data-zh="${esc(a.nameZh)}">${esc(a.nameEn)}</td>
+                        <td data-en="${esc(a.countEn)}" data-zh="${esc(a.countZh)}">${esc(a.countEn)}</td>
+                        <td data-en="${esc(a.eligibilityEn)}" data-zh="${esc(a.eligibilityZh)}">${esc(a.eligibilityEn)}</td>
+                        <td data-en="${esc(a.rewardEn)}" data-zh="${esc(a.rewardZh)}">${esc(a.rewardEn)}</td>
+                    </tr>`).join('');
+  return `
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-en="Award" data-zh="奖项">Award</th>
+                            <th data-en="Awardees" data-zh="名额">Awardees</th>
+                            <th data-en="Eligibility" data-zh="资格">Eligibility</th>
+                            <th data-en="Recognition" data-zh="奖励与兑现">Recognition</th>
+                        </tr>
+                    </thead>
+                    <tbody>${rows}
+                    </tbody>
+                </table>
+            </div>`;
+}
+
 // ── Build Config ───────────────────────────────────────────
 
 const pages = [
@@ -275,6 +301,14 @@ const pages = [
     titleEn: 'Submission Guidelines - AIVTA 2026',
     titleZh: '投稿指南 - AIVTA 2026',
     metaDesc: 'AIVTA 2026 Paper Submission Guidelines - Requirements, format, and submission process',
+  },
+  {
+    file: 'students.html',
+    template: 'students',
+    pageId: 'students',
+    titleEn: 'For Students - AIVTA 2026',
+    titleZh: '学生专区 - AIVTA 2026',
+    metaDesc: 'AIVTA 2026 for students - Best Student Paper Award, travel grants, and how to submit your research as a student',
   },
   {
     file: 'registration.html',
@@ -329,7 +363,8 @@ function buildPage(config) {
     .replace(/\{\{DATE:([\w-]+)\}\}/g, (_, id) => renderDateInline(id))
     .replace(/\{\{TOPICS:(grid|tabs|compact)\}\}/g, (_, layout) => renderTopics(layout))
     .replace(/\{\{TOPIC_GRID\}\}/g, () => renderTopicGrid())
-    .replace(/\{\{COMMITTEE\}\}/g, () => renderCommittee());
+    .replace(/\{\{COMMITTEE\}\}/g, () => renderCommittee())
+    .replace(/\{\{AWARDS\}\}/g, () => renderAwards());
 
   // Assemble partials
   const head = loadPartial('head')

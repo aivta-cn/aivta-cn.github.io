@@ -102,6 +102,15 @@
 
     function init() {
         var saved = getSavedLang();
+        // Allow ?lang=zh / ?lang=en for deep links (e.g. sharing students.html in Chinese)
+        try {
+            var urlLang = new URLSearchParams(window.location.search).get('lang');
+            if (urlLang === 'zh' || urlLang === 'en') {
+                saved = urlLang;
+            }
+        } catch (e) {
+            // unsupported environment — fall back to saved/default language
+        }
         setLanguage(saved);
 
         var switcher = document.getElementById('lang-switch');
