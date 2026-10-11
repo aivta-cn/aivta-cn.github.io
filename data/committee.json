@@ -84,6 +84,36 @@
       ]
     },
     {
+      "id": "technical-program-committee",
+      "titleEn": "Technical Program Committee",
+      "titleZh": "程序委员会委员",
+      "members": [
+        {
+          "name": "吕格瑞 (Gerui Lv)",
+          "nameEn": "Gerui Lv",
+          "nameZh": "吕格瑞 (Gerui Lv)",
+          "avatar": "吕",
+          "avatarEn": "L",
+          "avatarZh": "吕",
+          "roleEn": "Technical Program Committee Member",
+          "roleZh": "程序委员会委员",
+          "affiliationEn": "Special Research Assistant (Postdoctoral Fellow), Network Technology Research Center, Institute of Computing Technology, Chinese Academy of Sciences",
+          "affiliationZh": "中国科学院计算技术研究所 网络技术研究中心 网络体系结构与系统课题组 特别研究助理（博士后）"
+        },
+        {
+          "name": "王钰博 (Wang Yubo)",
+          "nameEn": "Wang Yubo",
+          "nameZh": "王钰博 (Wang Yubo)",
+          "avatar": "王",
+          "avatarEn": "W",
+          "avatarZh": "王",
+          "roleEn": "Technical Program Committee Member · Conference Secretary-General",
+          "roleZh": "程序委员会委员 · 大会秘书长",
+          "email": "wangyubo@aivta.org"
+        }
+      ]
+    },
+    {
       "id": "publication-chair",
       "titleEn": "Publication Committee Chair",
       "titleZh": "出版委员会主席",
