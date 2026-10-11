@@ -12,25 +12,25 @@
       "id": "acceptance-notification",
       "labelEn": "Acceptance Notification",
       "labelZh": "录用通知",
-      "dateEn": "October 15, 2026",
-      "dateZh": "2026年10月15日",
-      "iso": "2026-10-15"
+      "dateEn": "November 8, 2026",
+      "dateZh": "2026年11月8日",
+      "iso": "2026-11-08"
     },
     {
       "id": "camera-ready",
       "labelEn": "Camera-Ready Deadline",
       "labelZh": "终稿提交截止",
-      "dateEn": "October 25, 2026",
-      "dateZh": "2026年10月25日",
-      "iso": "2026-10-25"
+      "dateEn": "November 10, 2026",
+      "dateZh": "2026年11月10日",
+      "iso": "2026-11-10"
     },
     {
       "id": "author-registration",
       "labelEn": "Author Registration Deadline",
       "labelZh": "作者注册截止",
-      "dateEn": "October 31, 2026",
-      "dateZh": "2026年10月31日",
-      "iso": "2026-10-31"
+      "dateEn": "November 6, 2026",
+      "dateZh": "2026年11月6日",
+      "iso": "2026-11-06"
     },
     {
       "id": "early-bird-registration",
