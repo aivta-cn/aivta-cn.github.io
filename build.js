@@ -327,6 +327,14 @@ const pages = [
     metaDesc: 'AIVTA 2026 Publication Information - IEEE Conference Proceedings, EI Compendex and Scopus indexing',
   },
   {
+    file: 'camera-ready.html',
+    template: 'camera-ready',
+    pageId: 'camera-ready',
+    titleEn: 'Camera-Ready Submission - AIVTA 2026',
+    titleZh: '终稿提交 - AIVTA 2026',
+    metaDesc: 'AIVTA 2026 Camera-Ready Submission - IEEE PDF eXpress Conference ID 71243X, formatting requirements, and final paper submission deadline',
+  },
+  {
     file: 'program.html',
     template: 'program',
     pageId: 'program',
