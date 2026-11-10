@@ -303,14 +303,6 @@ const pages = [
     metaDesc: 'AIVTA 2026 Paper Submission Guidelines - Requirements, format, and submission process',
   },
   {
-    file: 'students.html',
-    template: 'students',
-    pageId: 'students',
-    titleEn: 'For Students - AIVTA 2026',
-    titleZh: '学生专区 - AIVTA 2026',
-    metaDesc: 'AIVTA 2026 for students - Best Student Paper Award, travel grants, and how to submit your research as a student',
-  },
-  {
     file: 'registration.html',
     template: 'registration',
     pageId: 'registration',

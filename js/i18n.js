@@ -102,7 +102,7 @@
 
     function init() {
         var saved = getSavedLang();
-        // Allow ?lang=zh / ?lang=en for deep links (e.g. sharing students.html in Chinese)
+        // Allow ?lang=zh / ?lang=en for deep links (e.g. sharing registration.html in Chinese)
         try {
             var urlLang = new URLSearchParams(window.location.search).get('lang');
             if (urlLang === 'zh' || urlLang === 'en') {
