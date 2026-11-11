@@ -267,6 +267,18 @@ function renderAwards() {
             </div>`;
 }
 
+function renderRegistrationButton(style) {
+  const registration = siteData.registration || {};
+  const url = (registration.url || '').trim();
+  const buttonClass = style === 'outline-dark' ? 'btn btn-outline-dark' : 'btn btn-primary';
+
+  if (!url) {
+    return `<a href="mailto:${esc(siteData.contact.email)}?subject=AIVTA%202026%20Registration" class="${buttonClass}" data-en="Register by Email" data-zh="邮件报名">Register by Email</a>`;
+  }
+
+  return `<a href="${esc(url)}" target="_blank" rel="noopener" class="${buttonClass}" data-en="Open Registration Form" data-zh="打开注册表单">Open Registration Form</a>`;
+}
+
 // ── Build Config ───────────────────────────────────────────
 
 const pages = [
@@ -364,7 +376,8 @@ function buildPage(config) {
     .replace(/\{\{TOPICS:(grid|tabs|compact)\}\}/g, (_, layout) => renderTopics(layout))
     .replace(/\{\{TOPIC_GRID\}\}/g, () => renderTopicGrid())
     .replace(/\{\{COMMITTEE\}\}/g, () => renderCommittee())
-    .replace(/\{\{AWARDS\}\}/g, () => renderAwards());
+    .replace(/\{\{AWARDS\}\}/g, () => renderAwards())
+    .replace(/\{\{REGISTRATION_BUTTON(?::([\w-]+))?\}\}/g, (_, style) => renderRegistrationButton(style));
 
   // Assemble partials
   const head = loadPartial('head')
@@ -397,5 +410,8 @@ function buildPage(config) {
 // ── Main ───────────────────────────────────────────────────
 
 console.log('Building AIVTA 2026 website...\n');
+if (!siteData.registration || !siteData.registration.url) {
+  console.warn('  ⚠ data/site.json registration.url is empty — registration buttons fall back to email.\n');
+}
 pages.forEach(buildPage);
 console.log('\nDone. ' + pages.length + ' pages built.');

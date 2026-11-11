@@ -21,6 +21,18 @@
     "email": "adv@aivta.org",
     "website": "aivta.org"
   },
+  "registration": {
+    "provider": "问卷星",
+    "url": "https://v.wjx.cn/vm/eRY6cNS.aspx",
+    "payment": {
+      "entity": "水木时代（北京）图书中心有限公司",
+      "bank": "中国工商银行北京分行八角北支行",
+      "account": "0200218709006902768",
+      "taxId": "91110107736470347Y",
+      "address": "北京市丰台区西三环南路201号院1号楼5层510-F1009室",
+      "phone": "010-83214607"
+    }
+  },
   "copyright": {
     "year": 2026,
     "holderEn": "AIVTA Conference",

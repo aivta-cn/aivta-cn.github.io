@@ -713,6 +713,31 @@ li {
     font-weight: bold;
 }
 
+/* Bank account details: reference data, not a checklist */
+.bank-details {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f8f9fa;
+}
+
+.bank-details li {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.95rem;
+}
+
+.bank-details li:last-child {
+    border-bottom: none;
+}
+
+.bank-details strong {
+    color: var(--primary-color);
+}
+
 .template-download {
     background-color: var(--primary-color);
     color: var(--text-white);
@@ -903,6 +928,20 @@ tr:last-child td {
 
 tr:hover {
     background-color: var(--background-light);
+}
+
+.fee-note {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.fee-closed {
+    color: #888;
+}
+
+.fee-closed strong {
+    text-decoration: line-through;
 }
 
 /* ========================================

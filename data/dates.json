@@ -33,6 +33,14 @@
       "iso": "2026-11-11"
     },
     {
+      "id": "listener-registration",
+      "labelEn": "Listener Registration Deadline",
+      "labelZh": "听众注册截止",
+      "dateEn": "November 15, 2026",
+      "dateZh": "2026年11月15日",
+      "iso": "2026-11-15"
+    },
+    {
       "id": "early-bird-registration",
       "labelEn": "Early Bird Registration Deadline",
       "labelZh": "早鸟注册截止",

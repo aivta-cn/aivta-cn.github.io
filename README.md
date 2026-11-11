@@ -68,14 +68,19 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 | Full Paper Submission | October 8, 2026 |
 | Acceptance Notification | November 8, 2026 |
 | Camera-Ready Deadline | November 20, 2026 |
-| Registration Deadline | November 11, 2026 |
+| Author Registration Deadline | November 11, 2026 |
+| Listener Registration Deadline | November 15, 2026 |
 | Conference Dates | November 13-15, 2026 |
 
 ## Contact
 
 - **Submission system**: https://aivta2026.edas.info/newPaper.php?c=35727
+- **Registration form**: 问卷星 (URL configured in `data/site.json` under `registration.url`)
+- **Registration payment/invoice entity**: 水木时代（北京）图书中心有限公司
 - **Contact email**: adv@aivta.org
 - **Venue**: Hefei, Anhui Province, China
+
+> EDAS is used for paper submission only. Registration and payment are handled through the 问卷星 form.
 
 ## Other
 
