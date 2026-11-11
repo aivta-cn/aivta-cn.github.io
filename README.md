@@ -76,7 +76,7 @@ Push to the `main` branch to automatically deploy to GitHub Pages.
 
 - **Submission system**: https://aivta2026.edas.info/newPaper.php?c=35727
 - **Registration form**: 问卷星 (URL configured in `data/site.json` under `registration.url`)
-- **Registration payment/invoice entity**: 北京莫姆智能科技有限公司
+- **Registration payment/invoice entities**: 北京莫姆智能科技有限公司 / 水木时代（北京）图书中心有限公司 —— 两者均可收款，发票由实际收款方开具
 - **Contact email**: adv@aivta.org
 - **Venue**: Hefei, Anhui Province, China
 
