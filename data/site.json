@@ -32,7 +32,10 @@
           "bank": "上海浦东发展银行北京丰台支行",
           "account": "91440078801800003705",
           "taxId": "91110106MAKQ422P1L",
-          "address": "北京市丰台区海鹰路6号院26号楼4层4165"
+          "address": "北京市丰台区海鹰路6号院26号楼4层4165",
+          "swift": "SPDBCNSH390",
+          "bankEn": "Shanghai Pudong Development Bank Co.,Ltd. Beijing Fengtai Sub-Branch",
+          "bankAddressEn": "No.110, First Floor, Building 1, Yard 8, Automobile Museum West Road, South, Fengtai District, Beijing"
         },
         {
           "entity": "水木时代（北京）图书中心有限公司",
